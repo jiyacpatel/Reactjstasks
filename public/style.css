@@ -1,0 +1,517 @@
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p, ul {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+/* menu */
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	background: linear-gradient(to bottom, #4CAF50, #21c9f3); 
+	width: 200px; 
+}
+  
+#menu li {
+	margin-bottom: 10px;
+}
+
+#menu li:hover {
+	background-color: rgba(255, 255, 255, 0.2); /* Change the opacity as needed */
+}
+  
+#menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+
+/* Menu */
+/*#menu-wrapper {
+	overflow: hidden;
+	height: auto;
+	height: 60px;
+}
+
+#menu {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline-block;
+	border-right: 1px solid #FFFFFF;
+}
+
+#menu a {
+	display: block;
+	
+	line-height: 55px;
+	padding: 0px 2px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3B3B3B;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu li:nth-child(even) a {
+    color: blue;
+}
+
+#menu li:nth-child(odd) a {
+    color: grey;
+}*/
+
+/* signuppage */
+.signup-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .signup-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .signup-label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .signup-input {
+	margin-left: 10px;
+  }
+  
+  .signup-button {
+	padding: 10px 20px; 
+	background-color: #007bff; 
+	color: white; 
+	border: none; 
+	border-radius: 5px;
+	cursor: pointer; 
+  }
+  
+  .signup-button:hover {
+	background-color: #0056b3; 
+  }
+  
+  .signup-output {
+	margin-top: 20px;
+  }
+
+  .signup-output {
+	font-size: 2em;
+	margin-top: 20px;
+	color: green;
+  }
+  
+  .signup-output.error {
+	font-size: 2em;
+	color: red; 
+  }
+  
+
+  /* login page */
+  .login-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .login-input {
+	margin-left: 10px;
+  }
+  
+  .login-button {
+	padding: 10px 20px; 
+	background-color: #007bff; 
+	color: white; 
+	border: none; 
+	border-radius: 5px;
+	cursor: pointer; 
+  }
+  
+  .login-button:hover {
+	background-color: #0056b3; 
+  }
+
+  .login-output {
+	margin-top: 20px;
+  }
+
+ 
+  .login-output {
+	font-size: 2em;
+	margin-top: 20px;
+	color: green;
+  }
+  
+  .login-output.error {
+	font-size: 2em;
+	color: red; 
+  }
+  
+/* changepasswordpage */
+.change-password-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .change-password-heading {
+	margin-bottom: 20px;
+  }
+  
+  .change-password-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	width: 330px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .change-password-label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .change-password-input {
+	margin-left: auto;
+  }
+  
+  .change-password-button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .change-password-button:hover {
+	background-color: #0056b3;
+  }
+  
+  .change-password-message {
+	margin-top: 20px;
+  }
+
+  .success {
+	color: green;
+  }
+  
+  .error {
+	color: red;
+  }
+
+/* forgotpassword */
+.forgot-password-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .forgot-password-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+  }
+  
+  .forgot-password-label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .forgot-password-input {
+	margin-left: auto;
+  }
+  
+  .forgot-password-button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .forgot-password-button:hover {
+	background-color: #0056b3;
+  }
+
+
+  .forgot-password-message {
+	margin-top: 20px;
+  }
+  
+  .invalid-email {
+	color: red;
+  }
+
+  /* homepage */
+  .home-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .home-heading {
+	margin-bottom: 20px;
+  }
+  
+  .home-user-info {
+	margin-bottom: 20px;
+  }
+  
+  .home-user-info p {
+	margin-bottom: 10px;
+  }
+  
+  .home-button {
+	margin-right: 10px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .home-button:hover {
+	background-color: #0056b3;
+  }
+
+  /* edit profile page */
+  .edit-profile-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .edit-profile-heading {
+	margin-bottom: 20px;
+  }
+  
+  .edit-profile-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+  }
+  
+  .edit-profile-label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .edit-profile-input {
+	margin-left: auto;
+  }
+  
+  .edit-profile-button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .edit-profile-button:hover {
+	background-color: #0056b3;
+  }
+  
+  .edit-profile-message {
+	margin-top: 20px;
+	color: green;
+  }
+
+  /* newsapi */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-top: 0;
+}
+
+.card-body p {
+    margin: 10px 0;
+}
+
+.card-body a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+/* randomuser */
+.rumaincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+.random-user-container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .random-user-container h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .random-user-container img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+  }
+  
+  .random-user-container p {
+	margin-bottom: 5px;
+  }
+  
+  .random-user-container button {
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: #fd6456;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .random-user-container button:hover {
+	background-color: #ff4f40;
+  }
+  
+  .random-user-container a {
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #007bff;
+  }
+  
+  .random-user-container a:hover {
+	text-decoration: underline;
+  }
+
+
+  
+
+   
+  
+  
+
+  
+
+    
+
+
+
